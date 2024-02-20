@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Contract\NaturezaDeLancamento\" />
     <Folder Include="Controller\" />
-    <Folder Include="Domain\Services\" />
-    <Folder Include="Domain\Repositry\" />
+    <Folder Include="Domain\Services\Classes\" />
   </ItemGroup>
 
 </Project>

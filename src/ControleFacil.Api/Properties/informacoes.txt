@@ -1,0 +1,20 @@
+Criar Migration
+	dotnet ef migrations add NomeDaMigration
+
+Subir pro banco de dados a migration
+	dotnet ef database update
+
+Passo a passo de como criar uma nova entidade.
+	1° Criar modelo
+	2° Criar mapeamento
+	3° Adicionar mapeamento no ApplicationContext
+	4° Criar Migration da nova NomedaMigration
+	5° Executar Migration
+
+Criando o Crud
+
+	1° Modelo / Entidade
+	2° Repositório
+	3° Contrato ou DTO	
+	4° Serviço
+	5° Controller
